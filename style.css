@@ -95,10 +95,10 @@ nav a:hover::after {
 .hero-background {
     position: absolute;
     inset: 0;
-    background-image: url("images/w1.jpeg");
+    background-image: url("images/w3.jpeg");
     background-size: cover;
     background-position: center;
-    animation: backgroundZoom 12s ease-out forwards;
+    animation: backgroundZoom 0.9s ease-out forwards;
 }
 
 .hero-overlay {
