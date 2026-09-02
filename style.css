@@ -562,16 +562,21 @@ footer {
 
     .navbar {
         padding: 20px 6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
+    /* Menu button stays on the right */
     .menu-button {
         display: flex;
         flex-direction: column;
         gap: 5px;
-        background: none;
+        background: transparent;
         border: none;
         cursor: pointer;
-        z-index: 101;
+        z-index: 102;
+        padding: 8px;
     }
 
     .menu-button span {
@@ -581,17 +586,32 @@ footer {
         background: white;
     }
 
+    /* Menu opens on the right side */
     nav {
         position: fixed;
-        inset: 0;
-        background: #171717;
+        top: 70px;
+        right: 6%;
+        left: auto;
+
+        width: 190px;
+
+        background: rgba(20, 20, 20, 0.65);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 14px;
 
         display: none;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
-        gap: 30px;
+        padding: 18px 22px;
+        gap: 15px;
+
+        z-index: 101;
+
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     }
 
     nav.active {
@@ -599,9 +619,12 @@ footer {
     }
 
     nav a {
-        font-size: 25px;
+        font-size: 15px;
+        width: 100%;
+        padding: 5px 0;
     }
 
+    /* Rest of your mobile CSS */
     .hero h1 {
         letter-spacing: -2px;
     }
