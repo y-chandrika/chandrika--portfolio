@@ -95,7 +95,7 @@ nav a:hover::after {
 .hero-background {
     position: absolute;
     inset: 0;
-    background-image: url("images/w3.jpeg");
+    background-image: url("images/w8.JPG");
     background-size: cover;
     background-position: center;
     animation: backgroundZoom 0.9s ease-out forwards;
