@@ -264,7 +264,7 @@ nav a:hover::after {
 ========================= */
 
 .about {
-    background: #f3f1ec;
+    background: #9eaf92;
 }
 
 .about-content {
@@ -276,7 +276,7 @@ nav a:hover::after {
 .about-text {
     max-width: 550px;
     font-size: 17px;
-    color: #555;
+    color: #444343;
 }
 
 .about-text p {
@@ -289,7 +289,7 @@ nav a:hover::after {
 ========================= */
 
 .skills {
-    background: #e6e2da;
+    background: #dad0c6;
 }
 
 .skills-grid {
