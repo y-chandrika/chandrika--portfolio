@@ -444,6 +444,12 @@ nav a:hover::after {
     line-height: 1;
     font-weight: 500;
 }
+.resume-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(40px, 5vw, 65px);
+    line-height: 1;
+    font-weight: 500;
+}
 
 .button-dark {
     background: #171717;
